@@ -1,0 +1,167 @@
+.thanhmenu {
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  position: fixed;
+  width: 100%;
+}
+.td1 {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+.khung {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.td2 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.input {
+  height: 50px;
+}
+.khung2 {
+  width: 470px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.nutbam {
+  height: 50px;
+  background-color: orange;
+  border-style: solid;
+  border-color: black;
+}
+.khung3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.khungnho,
+.khungnho1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 470px;
+  background-color: orange;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+.tm {
+  text-align: center;
+}
+.input1,
+.input2 {
+  height: 50px;
+  width: 210px;
+}
+.nutbam1,
+.nutbam5 {
+  width: 70px;
+  height: 50px;
+  background-color: #ffd700;
+  border-style: solid;
+  border-color: black;
+}
+.mucnho {
+  border-style: solid;
+  background-color: #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 40%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.khung6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.khung7 {
+  border-style: solid;
+  height: 100px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.khungnho {
+  border-color: black;
+  border-style: solid;
+}
+.khungnho1 {
+  width: 95%;
+}
+@media screen and (max-width: 480px) {
+  .td2 {
+    font-size: 30px;
+  }
+  .input {
+    height: 40px;
+    width: 120px;
+  }
+  .td1 {
+    font-size: 30px;
+  }
+  .nutbam {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .khung7 {
+    width: 100%;
+  }
+  .input1,
+  .input2 {
+    width: 48%;
+  }
+  .khungnho {
+    width: 100%;
+  }
+  .congcu {
+    width: 100%;
+  }
+  .khungnho1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .td2 {
+    font-size: 20px;
+  }
+  .input {
+    height: 40px;
+    width: 120px;
+  }
+  .td1 {
+    font-size: 30px;
+  }
+  .nutbam {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .khung7 {
+    width: 100%;
+  }
+  .input1,
+  .input2 {
+    width: 48%;
+  }
+  .khungnho {
+    width: 100%;
+  }
+  .congcu {
+    width: 100%;
+  }
+  .khungnho1 {
+    width: 100%;
+  }
+}
